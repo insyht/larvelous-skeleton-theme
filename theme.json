@@ -1,0 +1,7 @@
+{
+  "name": "Theme skeleton",
+  "path": "insyht/larvelous-skeleton-theme/resources/views",
+  "namespace": "\\Insyht\\LarvelousSkeletonTheme",
+  "image": "https://insyht.nl/larvelous-skeleton-theme.png",
+  "author": "insyht"
+}
