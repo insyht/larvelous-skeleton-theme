@@ -1,0 +1,51 @@
+{
+  "name": "insyht/larvelous-skeleton-theme",
+  "type": "library",
+  "description": "Skeleton theme for the Larvelous CMS.",
+  "keywords": [
+    "cms",
+    "shop",
+    "webshop",
+    "ecommerce",
+    "larvelous"
+  ],
+  "authors": [
+    {
+      "name": "Jordy Thijs",
+      "email": "jordy@insyht.nl"
+    }
+  ],
+  "require": {
+    "php": "^8.2",
+    "illuminate/support": "*",
+    "insyht/larvelous": "master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Insyht\\LarvelousSkeletonTheme\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Insyht\\LarvelousSkeletonTheme\\Tests\\": "tests"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Insyht\\LarvelousSkeletonTheme\\Providers\\SkeletonThemeServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require-dev": {
+    "orchestra/testbench": "^8.0",
+    "phpunit/phpunit": "^10.3"
+  },
+  "config": {
+    "allow-plugins": {
+      "php-http/discovery": true
+    }
+  }
+}

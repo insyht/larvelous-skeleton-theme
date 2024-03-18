@@ -2,6 +2,7 @@
   "name": "Theme skeleton",
   "path": "insyht/larvelous-skeleton-theme/resources/views",
   "namespace": "\\Insyht\\LarvelousSkeletonTheme",
+  "blade_prefix": "larvelous-skeleton-theme",
   "image": "https://insyht.nl/larvelous-skeleton-theme.png",
   "author": "insyht"
 }
